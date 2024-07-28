@@ -1,0 +1,75 @@
+@font-face {
+    font-family: yagut;
+    src: url(font/B\ Yagut_0.ttf);}
+@font-face {
+    font-family: iran;
+    src: url(font/IranNastaliq.ttf);
+}
+*{
+    direction: rtl;
+    font-family: yagut;
+    text-align: center;
+}
+body{
+    background-image: url(image/4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#h{
+    font-family: iran;
+    text-align: center;
+}
+p ,pre ,td{
+    color: #dfe4ea;
+}
+.I1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    border: 9px solid rgb(68, 59, 50);
+    outline: 3px solid white;
+    transition: width 2s, height 2s;
+}
+.I1:hover{
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+}
+.I2{
+    float: left;
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    border: 9px solid rgb(68, 59, 50);
+    outline: 3px solid white;
+    transition: width 2s, height 2s;
+}
+   .I2:hover{
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+}
+a{
+    text-decoration: none;
+}
+.I3{
+    display: block;
+    margin: 5px auto;
+}
+#Q5{
+    background-color: rgb(85, 67, 43);
+    color: white;
+    text-align: center;
+}
+#Q5:visited{
+    color: rgb(36, 99, 192) 
+}
+#Q5:hover{
+    color: black;
+}
+/* ممنون از شما که اینها را تا آخر خواندید */
